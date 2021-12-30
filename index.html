@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>This is my Carousel Page</h1>
+        <h4>HTML CSS AND JAVASCRIPT PROJECT</h4>
+        <div class="icons">
+            <img src="./Imagens/html5.png">
+            <img src="./Imagens/css.png">
+            <img src="./Imagens/Js.png">
+            <img src="./Imagens/LinkedIn.png">
+            <img src="./Imagens/Git.png">
+        </div>
+    </header>
+    <div class="container" onmouseover="onOver('.buttons')" onmouseout="onOut('.buttons')">
+        <div class="buttons">
+            <div class="butt-contr" onclick="goPrev()">
+                <img class="Arrow-Btm" src="./Imagens/arrow left.png">
+            </div>
+            <div class="butt-contr" onclick="goNext()">
+                <img class="Arrow-Btm" src="./Imagens/arrow righ.png">
+            </div>
+        </div>
+        <div class="slider-cont">
+            <div class="slider-img">
+                <div class="img-item" style="background-image: url(./Imagens/Floresta\ 1.jpg);"></div>
+                <div class="img-item" style="background-image: url(./Imagens/Floresta\ 2.jpg);"></div>
+                <div class="img-item" style="background-image: url(./Imagens/Floresta\ 3.jpg);"></div>
+            </div>        
+        </div>
+    </div>
+    <section>
+        <div class="ref-links">
+            <h1 class="sect-h1">LINKS TO USED IMAGES ON PROJECT</h1>
+            <a href='https://br.freepik.com/fotos-vetores-gratis/flor'>Flor foto criado por wirestock - br.freepik.com</a>
+            <a href='https://br.freepik.com/fotos-vetores-gratis/luz'>Luz foto criado por javi_indy - br.freepik.com</a>
+            <a href='https://br.freepik.com/fotos-vetores-gratis/arvore'>Árvore foto criado por wirestock - br.freepik.com</a>
+            <a href="https://www.streamlinehq.com">Free Interface Arrows Left PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Interface Arrows Right PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Programming Script Html 5 PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Computer Logo Linkedin PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Js 1 PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Programming Language Css 3 PNG icon by Streamline</a>
+            <a href="https://www.streamlinehq.com">Free Developer Community Github 1 PNG icon by Streamline</a>
+        </div>
+        <script src="./Javascript/script.js"></script>
+    </section>
+</body>
+</html>

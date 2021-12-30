@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-around;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.icons img{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.slider-cont{
+    flex: 1;
+    overflow: hidden;
+}
+
+.slider-img{
+    height: 100%;
+    display: flex;
+    transition: all ease 2s;
+}
+
+.img-item{
+    width: 100vw;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttons{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+}
+
+.butt-contr{
+    width: 45px;
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.Arrow-Btm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: inherit;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.sect-h1{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+section a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
